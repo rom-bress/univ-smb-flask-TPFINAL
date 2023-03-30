@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %}Liste des serveurs{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+<h1>Liste des serveurs en place</h1>
+<table id="myTab" class="table table-striped">
+    <thead>
+      <tr>
+        <th>Numéro WebServer</th>
+        <th>Nom WebServer</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>1</td>
+          <td>WebSite</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>API</td>
+          </tr>
+    </tbody>
+
+</table>
+{% endblock %}

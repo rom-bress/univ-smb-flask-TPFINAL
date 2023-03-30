@@ -9,4 +9,8 @@ def start():
 @app.route("/authentification")
 def authentification(): 
     return render_template('authentification.html')
+
+@app.route("/list_server")
+def list_server(): 
+    return render_template('list_server.html')
     
